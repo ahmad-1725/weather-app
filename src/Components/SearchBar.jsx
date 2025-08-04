@@ -13,13 +13,13 @@ function SearchBar({ searchCity }) {
   }
 
   return (
-    <>
+    <div className="searchBox">
       <form className="searchForm" onSubmit={handleSubmit}>
         <input onChange={(e) => setCity(e.target.value)} 
         type="text" value={city} placeholder="Enter city name..." />
         <button type="submit">Search</button>
       </form>
-    </>
+    </div>
   )
 }
 

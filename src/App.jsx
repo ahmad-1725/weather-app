@@ -47,7 +47,7 @@ function App() {
   
 
   return (
-    <div>
+    <div className="container">
       <SearchBar searchCity={searchCity} />
       { isLoading && <LoadingSpinner /> }
       { error && <p className="error">{error}</p> }
