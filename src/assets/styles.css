@@ -285,7 +285,7 @@ button:hover {
     overflow-x: auto;
     padding: clamp(.8rem, 5vw ,1rem);
     gap: 1rem;
-    width: clamp(20vh, 25vw, 30vh);
+    width: clamp(30vh, 25vw, 40vh);
     scroll-snap-type: x mandatory;
   }
 
